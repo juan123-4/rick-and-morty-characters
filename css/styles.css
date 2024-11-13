@@ -71,11 +71,30 @@ table {
   cursor: pointer;
   background-color: #03b1c8;
 }
+#character-list{ 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  
+  justify-content: center;
+  padding-top: 110px;}
+#character-list img{  
+  gap: 5px;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;}
+#character-list p{
+  color: black;
+  margin-left: 10px;}
+#character-list p:nth-child(3){margin-left: 10px;
+  margin-bottom: 10px;}
 
-ul {  
-  padding-top: 100px;
-  list-style: none;
-}
-
-
+.personaje,.especie{border-width: .5px;
+  margin: 10px;
+  border-style: solid;
+  border-color: gray;}
+.negrita{font-weight: bold;}
+.negritatwo{font-weight: bold;}
+  
 
